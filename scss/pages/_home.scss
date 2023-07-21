@@ -1,3 +1,288 @@
 main {
     flex-grow: 1;
 }
+
+.header__navbar {
+    display: flex;
+    justify-content: space-between;
+
+    .header__nav__list {
+        display: flex;
+
+        .header__nav__list__link {
+            //styleName: Body;
+            font-family: Inter;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 26px;
+            letter-spacing: 0px;
+            text-align: left;
+            color: #5E607A;
+            padding: 10px 0 0 40px;
+        }
+    }
+
+}
+
+.header__navbar__hamburger-logo {
+    display: none;
+}
+
+
+
+
+.header__container__logo {
+    width: 64.09200286865234px;
+    height: 39.900001525878906px;
+
+}
+
+@media screen and (max-width:600px) {
+    .header__navbar {
+        display: flex;
+        justify-content: space-between;
+        padding: 50px;
+
+        .header__nav__list {
+            display: none;
+
+
+        }
+
+        .header__navbar__hamburger-logo {
+            display: block;
+        }
+
+    }
+}
+
+.section__one {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+
+
+.s1__left__hdr {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   width: 100%;
+   height: auto;
+    
+    
+}
+
+.section__one__left__df {
+    display: flex;
+    gap: 3rem;
+margin-top: 28px;
+}
+
+.section__one__title {
+width: 350px;
+height: 182px;
+font-family: Inter;
+font-size: 56px;
+font-weight: 800;
+line-height: 56px;
+letter-spacing: 0px;
+text-align: left;
+color: #00001A;
+
+}
+
+
+.section__one__text {
+    
+    //styleName: Body;
+font-family: Inter;
+font-size: 15px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0px;
+text-align: left;
+color: #5E607A;
+    width: 350px;
+    height: 104px;
+    
+}
+
+.section__one__btn {
+
+    width: 185px;
+    height: 48px;
+    background: #F15D51;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 4.375px;
+    text-align: left;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #fff;    
+}
+.section__one__right{
+    width: 350px;
+height: 511px;
+background: #00001A;
+
+}
+.section__one__right {
+    padding: 24px 32px;
+    .section__one__right__title1 {
+        //styleName: Heading (L);
+font-family: Inter;
+font-size: 40px;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 0px;
+text-align: left;
+color: #E9AA52;
+padding-bottom: 34px;
+    }
+    .section__one__right__title2 {
+
+        //styleName: Heading (S);
+font-family: Inter;
+font-size: 20px;
+font-weight: 800;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: left;
+color: #fff;
+margin-bottom: 8px;
+    }
+    .section__one__right__text {
+        width: 282px;
+height: 52px; //styleName: Body;
+font-family: Inter;
+font-size: 15px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0px;
+text-align: left;
+color: #C5C6CE;
+    }
+}
+.hr{
+    margin-top: 29px;
+    margin-bottom: 31px;
+}
+@media screen and (max-width:1100px) {
+    .section__one {
+        display: block;
+    }
+    .section__one__btn{
+        margin-top: -5px;
+        margin-bottom: 64px;
+    }
+
+}
+@media screen and (max-width:600px) {
+   
+   
+    .section__one {
+        display: block;
+    }
+    .section__one__title{
+        font-family: Inter;
+        font-size: 40px;
+        font-weight: 800;
+        line-height: 40px;
+        letter-spacing: 0px;
+        text-align: left;
+        width: 343px;
+height: 120px;
+
+
+    }
+    .section__one__btn{
+        margin-top: -5px;
+        margin-bottom: 64px;
+    }
+ 
+}
+@media screen and (max-width:751px) {
+ 
+    .section__one__right{
+        width: 343px;
+height: 489px;
+margin-bottom: 64px;
+    }
+    .section__one__left__df{
+        display: block;
+    }
+}
+.section__twoo__card1{
+
+    display: flex;
+    gap: 24px;
+}
+.section__twoo__card1_left{
+    width: 100px;
+height: 127px;
+}
+
+.section__twoo__card1_right_title1 {
+    //styleName: Heading (M);
+font-family: Inter;
+font-size: 32px;
+font-weight: 700;
+line-height: 32px;
+letter-spacing: 0px;
+text-align: left;
+color: #C5C6CE;
+padding-bottom: 12px;
+}
+.section__twoo__card1_right_title2 {
+    //styleName: Heading (XS);
+font-family: Inter;
+font-size: 18px;
+font-weight: 800;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: left;
+padding-bottom: 9px;
+color: #00001A;
+}
+.section__twoo__card1_right_text {
+    //styleName: Body;
+font-family: Inter;
+font-size: 15px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0px;
+text-align: left;
+color: #5E607A;
+}
+.section__twoo__cards{
+    display: flex;
+    gap: 30px;
+    padding-top: 64px;
+}
+.section__one{
+    padding-top: 50px;
+}
+@media screen and (max-width:1100px) {
+    .section__twoo__cards{
+        display: block;
+    }
+.section__twoo__card1{
+    margin-top: 32px;
+}
+
+}
+@media screen and (max-width:751px) {
+    .section__twoo__cards{
+        display: block;
+    }
+.section__twoo__card1{
+    margin-top: 32px;
+}
+
+}
